@@ -1,9 +1,12 @@
 .section {
-  height: 100vh;
-  background-color: #373737;
+  background-color: #485a6c;
 }
 
-button,
+.section_menu_bBorder {
+  border-bottom: 1 px solid rgba(0, 0, 0, 0.9);
+}
+
+/* button,
 input[type='submit'],
 input[type='button'],
 a.btn,
@@ -28,7 +31,7 @@ input[type='button'].btn,
   color: #ebc51e;
   cursor: default;
   display: inline-block;
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 1.2;
   margin: 0;
@@ -39,4 +42,4 @@ input[type='button'].btn,
   text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.8);
   vertical-align: middle;
   transition: all 0.15s ease-in-out;
-}
+} */

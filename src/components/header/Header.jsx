@@ -6,18 +6,16 @@ import './header.css';
 export const Header = () => {
   return (
     <Router>
-      <div className='flex header'>
-        <div>
+      <header className='header_style'>
+        <div className='container'>
+          <div className='center_text'>
+            <h3>Velkommen</h3>
+          </div>
           <Link to='/' className='btn'>
             utviklerToni
           </Link>
         </div>
-        <div>
-          <button className='btn' type='submit'>
-            logginn
-          </button>
-        </div>
-      </div>
+      </header>
     </Router>
   );
 };

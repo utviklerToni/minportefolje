@@ -2,13 +2,23 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Cascadia Mono;
+  color: white;
 }
 
-body,
-a {
-  color: white;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+.container {
+  width: 72%;
+  margin: auto;
+}
 
-  /* background-color: #00244f; */
+.center_text {
+  text-align: center;
+}
+
+.center_text_flex {
+  justify-content: center;
+}
+
+.d_flex {
+  display: flex;
 }
