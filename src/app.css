@@ -3,7 +3,12 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Cascadia Mono;
-  color: white;
+  color: #08f308;
+}
+
+body {
+  background: #153c3e;
+  /* background: #00244f; */
 }
 
 .container {

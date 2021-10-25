@@ -1,9 +1,9 @@
 .section {
-  background-color: #485a6c;
-}
-
-.section_menu_bBorder {
-  border-bottom: 1 px solid rgba(0, 0, 0, 0.9);
+  height: 15vh;
+  background-color: #0d393a;
+  padding: 1.26rem 1.26rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.9);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.27), transparent);
 }
 
 /* button,

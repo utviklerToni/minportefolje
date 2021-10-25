@@ -10,21 +10,21 @@ const Section = () => {
           <div className='header-section center_text_flex d_flex'>
             <div>
               <Link to='#' className='btn'>
-                Home
+                Hjem
               </Link>
             </div>
             <div>
               <Link to='#' className='btn'>
-                About me
+                Om Oss
               </Link>
             </div>
             <div>
               <Link to='#' className='btn'>
-                Contact
+                Kontact
               </Link>
             </div>
           </div>
-          <hr className='section_menu_bBorder' />
+          
         </section>
       </Router>
     </Fragment>
