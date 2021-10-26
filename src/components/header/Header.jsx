@@ -11,7 +11,7 @@ export const Header = () => {
           <div className='center_text'>
             <h3>Velkommen</h3>
           </div>
-          <Link to='/' className='btn'>
+          <Link to='/' className='btn header_btn_bRadius'>
             utviklerToni
           </Link>
         </div>

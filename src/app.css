@@ -27,3 +27,42 @@ body {
 .d_flex {
   display: flex;
 }
+
+.btn {
+  font-family: Cascadia Mono;
+  background: #09252e;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  /* border-radius: 0.25rem; */
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.2),
+    inset 0px -1px 0px rgba(255, 255, 255, 0.1),
+    inset 1px 0px 0px rgba(255, 255, 255, 0.05),
+    inset -1px 0px 0px rgba(255, 255, 255, 0.05), 0 4px 8px rgba(0, 0, 0, 0.3);
+
+  box-sizing: border-box;
+  color: #f33708;
+  cursor: default;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 0;
+  margin-bottom: 1rem;
+  padding: 0.5em 1.25em;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.8);
+  vertical-align: middle;
+  transition: all 0.027s ease-in-out;
+}
+
+.btn:active {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.27), transparent);
+  box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  color: #038103;
+  transition: all 0.027s ease-in-out;
+}

@@ -1,9 +1,19 @@
 .section {
   height: 15vh;
   background-color: #0d393a;
-  padding: 1.26rem 1.26rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-bottom: 1px solid rgba(0, 0, 0, 0.9);
   background-image: linear-gradient(rgba(0, 0, 0, 0.27), transparent);
+}
+
+.section_menu_btn_bRadius_hjem {
+  border-radius: 0.27rem 0rem 0rem 0.27rem;
+}
+
+.section_menu_btn_bRadius_kontact {
+  border-radius: 0rem 0.27rem 0.27rem 0rem;
 }
 
 /* button,
