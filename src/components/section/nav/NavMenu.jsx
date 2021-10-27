@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Link } from 'react-router-dom';
 import React, { Fragment } from 'react';
-import './section.css';
+import './NavMenu.css';
 
-const Section = () => {
+const NavMenu = () => {
   return (
     <Fragment>
       <Router>
@@ -30,4 +30,4 @@ const Section = () => {
   );
 };
 
-export default Section;
+export default NavMenu;

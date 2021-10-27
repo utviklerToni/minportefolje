@@ -7,7 +7,7 @@
 }
 
 body {
-  background: #153c3e;
+  background: #304f4b;
   /* background: #00244f; */
 }
 
@@ -42,7 +42,6 @@ body {
     inset 1px 0px 0px rgba(255, 255, 255, 0.05),
     inset -1px 0px 0px rgba(255, 255, 255, 0.05), 0 4px 8px rgba(0, 0, 0, 0.3);
 
-  box-sizing: border-box;
   color: #f33708;
   cursor: default;
   display: inline-block;
