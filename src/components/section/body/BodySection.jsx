@@ -1,21 +1,15 @@
 import React from 'react';
 
-import './bodySection.css';
 import TypingEffect from '../../hooks/TypingEffect';
+import './bodySection.css';
 
 const BodySection = () => {
   return (
-    <div className='profile_section'>
-      <div className='img_border'>
-        <h1>___</h1>
+    <div className='container grid'>
+      <div className='grid_text'>
+        <TypingEffect text={`utviklerToni, mellomnivå javascript utvikler`} />
       </div>
-      <div>
-        <h3>
-          <TypingEffect text={'who am i : utvkilerToni'} />
-        </h3>
-
-        <TypingEffect text={'utviklerToni ønsker deg velkommen'} />
-      </div>
+      <div className='img_border img'></div>
     </div>
   );
 };

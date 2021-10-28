@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Cascadia Mono;
-  color: #08f308;
+  color: #b97900;
 }
 
 body {
@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-  width: 72%;
+  max-width: 72%;
   margin: auto;
 }
 
@@ -42,7 +42,7 @@ body {
     inset 1px 0px 0px rgba(255, 255, 255, 0.05),
     inset -1px 0px 0px rgba(255, 255, 255, 0.05), 0 4px 8px rgba(0, 0, 0, 0.3);
 
-  color: #f33708;
+  color: #aa5200;
   cursor: default;
   display: inline-block;
   font-size: 1rem;
