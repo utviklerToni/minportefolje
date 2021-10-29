@@ -10,17 +10,17 @@ const NavMenu = () => {
           <div className='header-section center_text_flex d_flex'>
             <div>
               <Link to='#' className='btn section_menu_btn_bRadius_hjem'>
-                Hjem
+                home
               </Link>
             </div>
             <div>
               <Link to='#' className='btn'>
-                Om Meg
+                about me
               </Link>
             </div>
             <div>
               <Link to='#' className='btn section_menu_btn_bRadius_kontact'>
-                Kontact
+                projects
               </Link>
             </div>
           </div>

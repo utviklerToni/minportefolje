@@ -9,7 +9,7 @@ export const Header = () => {
       <header className='header_style'>
         <div className='container'>
           <div className='center_text'>
-            <h3>Velkommen</h3>
+            <h3>welcome to my portfolio project</h3>
           </div>
           <Link to='/' className='btn header_btn_bRadius'>
             utviklerToni
