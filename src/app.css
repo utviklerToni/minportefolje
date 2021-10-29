@@ -2,8 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Cascadia Mono;
-  color: #b97900;
+  font-family: 'Open Sans';
+  color: #dbdbdb;
+  outline: none;
 }
 
 body {
@@ -12,7 +13,7 @@ body {
 }
 
 .container {
-  max-width: 72%;
+  max-width: 54%;
   margin: auto;
 }
 

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, Fragment } from 'react';
 
 const TypingEffect = ({ text }) => {
   const index = useRef(0);
@@ -21,9 +21,9 @@ const TypingEffect = ({ text }) => {
   }, [liveText, text]);
 
   return (
-    <div>
+    <Fragment>
       <p>{liveText}</p>
-    </div>
+    </Fragment>
   );
 };
 
