@@ -5,20 +5,22 @@ const AboutMeCard = () => {
   return (
     <Fragment>
       <div className='card'>
-        <h3>what i do for a living</h3>
+        <h2>what i do for a living</h2>
         <p>
           i am a full stack dev, I make web app on MERN stack, i also work on
           electron.js and i create apps for Linux, but can also be used in
           windows, electron.js is cross-platform
         </p>
-        <li>
-          <a href='github.com/utviklerToni'>github</a>
-        </li>
+        <ul>
+          <li>
+            <a href='github.com/utviklerToni'>github</a>
+          </li>
+        </ul>
       </div>
       <div className='card'>
         <h1>when i'm not coding</h1>
         <div>
-          <h3>mostly exericse</h3>
+          <h2>mostly exericse</h2>
           <p>
             i do plenty of exericse each do to avoid back, wrists, arm, neck
             inuries. the job as a developer is not very "physcially moving", so
@@ -30,17 +32,18 @@ const AboutMeCard = () => {
 
       <div className='card'>
         <h1>my projects</h1>
-        <h3>list of projects i have done in past year</h3>
-
-        <li>
-          <a href='/'>map api using reactjs and mapbox</a>
-        </li>
-        <li>
-          <a href='/'>login/register using react+redux</a>
-        </li>
-        <li>
-          <a href='/'>blog using react {'&'} redux</a>
-        </li>
+        <h2>list of projects i have done in past year</h2>
+        <ul>
+          <li>
+            <a href='/'>map api using reactjs and mapbox</a>
+          </li>
+          <li>
+            <a href='/'>login/register using react+redux</a>
+          </li>
+          <li>
+            <a href='/'>blog using react {'&'} redux</a>
+          </li>
+        </ul>
       </div>
     </Fragment>
   );

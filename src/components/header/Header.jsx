@@ -9,10 +9,10 @@ export const Header = () => {
       <header className='header_style'>
         <div className='container header_flex_smallscreen'>
           <div className='center_text header_text_style'>
-            <h3>welcome to my portfolio project</h3>
+            <h3>Welcome to my portfolio project</h3>
           </div>
           <Link to='/' className='btn header_btn_bRadius'>
-            utviklerToni
+            UtviklerToni
           </Link>
         </div>
       </header>

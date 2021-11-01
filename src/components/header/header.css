@@ -20,6 +20,7 @@
 @media (max-width: 1278px) {
   .header_flex_smallscreen {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
