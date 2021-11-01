@@ -100,3 +100,24 @@
   margin: 9rem 3rem 9rem 3rem;
   border: 1px solid rgba(197, 67, 7, 0.8);
 }
+
+@media (max-width: 1024px) {
+  .about_me-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .grid_intro-text h3 {
+    font-size: 14px;
+    font-weight: 300;
+  }
+
+  .profile-border {
+    grid-template-columns: 1fr;
+  }
+
+  .horizontal_line {
+    margin: 3rem 1rem 3rem 1rem;
+    border: 1px solid rgba(197, 67, 7, 0.8);
+  }
+}
