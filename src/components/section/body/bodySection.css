@@ -45,6 +45,13 @@
   justify-items: center;
 }
 
+h1,
+h2,
+h3,
+.card p {
+  font-weight: 400;
+}
+
 .border-red {
   padding: 1rem;
   border: 1px solid transparent;
@@ -99,6 +106,11 @@
 .horizontal_line {
   margin: 9rem 3rem 9rem 3rem;
   border: 1px solid rgba(197, 67, 7, 0.8);
+}
+
+.hr_color {
+  margin: 0.9rem 0rem;
+  border: 1px solid rgba(255, 85, 6, 0.8);
 }
 
 @media (max-width: 1024px) {

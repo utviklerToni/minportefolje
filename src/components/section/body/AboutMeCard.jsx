@@ -5,34 +5,35 @@ const AboutMeCard = () => {
   return (
     <Fragment>
       <div className='card'>
-        <h2>what i do for a living</h2>
+        <h2>Me as a developer</h2>
+        <hr className='hr_color' />
         <p>
-          i am a full stack dev, I make web app on MERN stack, i also work on
+          I am a full stack dev, I make web app on MERN stack, i also work on
           electron.js and i create apps for Linux, but can also be used in
           windows, electron.js is cross-platform
         </p>
         <ul>
           <li>
-            <a href='github.com/utviklerToni'>github</a>
+            <a href='https://www.github.com/utviklerToni'>github</a>
           </li>
         </ul>
       </div>
       <div className='card'>
-        <h1>when i'm not coding</h1>
+        <h1>When i'm not coding</h1>
         <div>
-          <h2>mostly exericse</h2>
+          <hr className='hr_color' />
           <p>
-            i do plenty of exericse each do to avoid back, wrists, arm, neck
-            inuries. the job as a developer is not very "physcially moving", so
-            to keep myself fit and healthy i have to workout almost everyday
+            I do plenty of exericse each do to avoid back, wrists, arm, neck
+            inuries. The job as a developer is not very "physcially moving", so
+            to keep myself fit and healthy I have to workout almost everyday
             30mins minimum.
           </p>
         </div>
       </div>
 
       <div className='card'>
-        <h1>my projects</h1>
-        <h2>list of projects i have done in past year</h2>
+        <h1>My favorite projects</h1>
+        <hr className='hr_color' />
         <ul>
           <li>
             <a href='/'>map api using reactjs and mapbox</a>
