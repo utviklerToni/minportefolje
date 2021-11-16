@@ -28,9 +28,9 @@ const BodySection = () => {
             <div className='grid_intro-text'>
               <h2>Who am I ? </h2>
               <h3>
-                My alias goes as utviklerToni and i am a full stack web dev, i
-                use js with MERN stack, i also work on electron.js and develop
-                linux desktop app......
+                Hi, My name is utviklerToni and i am a full stack web dev, i use
+                js with MERN stack, i also work on electron.js and develop linux
+                desktop app......
               </h3>
             </div>
           </header>

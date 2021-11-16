@@ -9,8 +9,8 @@ const AboutMeCard = () => {
         <hr className='hr_color' />
         <p>
           I am a full stack dev, I make web app on MERN stack, i also work on
-          electron.js and i create apps for Linux, but can also be used in
-          windows, electron.js is cross-platform
+          electron.js and I create apps for Linux using Electron.js which is a
+          cross platform framework
         </p>
         <ul>
           <li>
@@ -36,13 +36,21 @@ const AboutMeCard = () => {
         <hr className='hr_color' />
         <ul>
           <li>
-            <a href='/'>map api using reactjs and mapbox</a>
+            <h3>
+              <a href='/'>Mapbox api using React.js</a>
+            </h3>
           </li>
           <li>
-            <a href='/'>login/register using react+redux</a>
+            <h3>
+              <a href='/'>Login/Register</a>
+            </h3>
           </li>
           <li>
-            <a href='/'>blog using react {'&'} redux</a>
+            <h3>
+              <a href='https://bjornsbeersandbones.herokuapp.com/'>
+                Bjorns Beers & Bones
+              </a>
+            </h3>
           </li>
         </ul>
       </div>

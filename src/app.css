@@ -67,6 +67,16 @@ body {
   transition: all 0.027s ease-in-out;
 }
 
+li {
+  margin-top: 1.8rem;
+}
+
+a,
+ul {
+  list-style-type: none;
+  text-decoration: none;
+}
+
 @media (max-width: 1332px) {
   .container {
     max-width: 63vw;
