@@ -1,15 +1,18 @@
 import React, { Fragment } from 'react';
 
-import './projectScreen.css';
 import PSComponent from './PSComponent';
+import signIn from '../../assets/signIn.png';
+import bbbsHomePage from '../../assets/bbbs-mainpage-scaled04.png';
 
 const ProjectScreen = () => {
   return (
     <Fragment>
       <PSComponent
-        projectImgAlg={`login project img`}
+        projectImage={signIn}
+        projectImgAlt={`login project img`}
         projectHeader={`Authentication with Redux`}
         projectLink={`https://bjornsbeersandbones.herokuapp.com/login`}
+        projectLinkDescription={`Click here to try`}
         projectDescriptionTitle={`About this project`}
         projectDescriptionParagraph={` A simple authetication using redux state management with
         React.js. Redux is a predictable state container for
@@ -20,7 +23,15 @@ const ProjectScreen = () => {
         that, it provides a great developer experience, such as live
         code editing combined with a time traveling debugger.`}
       />
-      {/* <PSComponent /> */}
+      <PSComponent
+        projectImage={bbbsHomePage}
+        projectImgAlt={`image`}
+        projectHeader={`A small restaurant project for Gaialivsstil`}
+        projectLink={`https://bjornsbeersandbones.herokuapp.com`}
+        projectLinkDescription={`Show me the live demo`}
+        projectDescriptionTitle={`About this project`}
+        projectDescriptionParagraph={` A simple restaurant website using React.js & redux state management with Node.js at the backend. Its a small project for my client to support local organic farmers and serve local community. This restaurant will open in the beautiful town of Kragerø. It is one of the ongoing project I've been working on. The goal is to make it scalable using micro-service so it can be scaled. Since its not been launched, I have created it as a monolithic web-app.`}
+      />
     </Fragment>
   );
 };

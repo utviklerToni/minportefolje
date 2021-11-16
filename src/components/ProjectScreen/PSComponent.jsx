@@ -1,6 +1,6 @@
 import React from 'react';
 
-import signIn from '../../assets/signIn.png';
+import './projectScreen.css';
 
 const PSComponent = (props) => {
   return (
@@ -8,23 +8,25 @@ const PSComponent = (props) => {
       <div className='top-margin'>
         <div className='raised-card-project'>
           <div className='flexbox_project'>
-            <div className=''>
+            <div className='para-space'>
               <h1>{props.projectHeader}</h1>
               <div>
-                <a
-                  href={props.projectLink}
-                  // href='#'
-                  className='btn_project'
-                >
-                  Click here to try
+                <a href={props.projectLink} className='btn_project'>
+                  {props.projectLinkDescription}
                 </a>
               </div>
               <div>
                 <h1>{props.projectDescriptionTitle}</h1>
-                <p className='desc-font'>{props.projectDescriptionParagraph}</p>
+                <p className='desc-font para-space'>
+                  {props.projectDescriptionParagraph}
+                </p>
               </div>
             </div>
-            <img src={signIn} alt={props.projectImgAlg} />
+            <img
+              src={props.projectImage}
+              alt={props.projectImgAlt}
+              className='project-img-shadow'
+            />
           </div>
         </div>
       </div>
