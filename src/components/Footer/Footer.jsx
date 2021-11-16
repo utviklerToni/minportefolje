@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../section/body/bodySection.css';
+import '../Section/Body/bodySection.css';
 import './footer.css';
 
 const Footer = () => {
@@ -52,10 +52,6 @@ const Footer = () => {
             telegram
           </button>
         </div>
-      </div>
-
-      <div className='flex card'>
-        <p>utviklerToni - open source | 2021 </p>
       </div>
     </div>
   );

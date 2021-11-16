@@ -3,11 +3,11 @@ import { BrowserRouter as Router, Link } from 'react-router-dom';
 
 import './header.css';
 
-export const Header = () => {
+const Header = () => {
   return (
     <Router>
       <header className='header_style'>
-        <div className='container header_flex_smallscreen'>
+        <div className=' header_flex_smallscreen'>
           <div className='center_text header_text_style'>
             <h3>Welcome to my portfolio project</h3>
           </div>
@@ -19,3 +19,5 @@ export const Header = () => {
     </Router>
   );
 };
+
+export default Header;

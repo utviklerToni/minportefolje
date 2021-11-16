@@ -1,17 +1,31 @@
 import React from 'react';
-import { Header } from './components/header/Header';
-import './app.css';
-import NavMenu from './components/section/nav/NavMenu';
-import BodySection from './components/section/body/BodySection';
-import Footer from './components/footer/Footer';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-export default function App() {
+import './app.css';
+import AboutMe from './components/AboutMe/AboutMe';
+import Header from './components/Header/Header';
+import HomePage from './components/HomePage/HomePage';
+import ProjectScreen from './components/ProjectScreen/ProjectScreen';
+import NavMenu from './components/Section/Nav/NavMenu';
+import FooterBanner from './components/Footer/FooterBanner';
+
+const App = () => {
   return (
     <div>
-      <Header />
-      <NavMenu />
-      <BodySection />
-      <Footer />
+      <Router>
+        <Header />
+        <NavMenu />
+        <main>
+          <Route path='/' exact component={HomePage} />
+          <Route path='/prosjekt' exact component={ProjectScreen} />
+          <Route path='/about_me' component={AboutMe} />
+        </main>
+        <div className='container'>
+          <FooterBanner />
+        </div>
+      </Router>
     </div>
   );
-}
+};
+
+export default App;
