@@ -1,135 +1,125 @@
 .profile-border {
-  margin-top: 3rem;
-  border: 1px solid transparent;
-  display: grid;
-  grid-gap: 1rem;
-  border-radius: 0.3rem;
-  grid-template-columns: repeat(3, 1fr);
-  padding: 0.9rem;
-  transition: all 0.1s linear;
+	margin-top: 3rem;
+	border: 1px solid transparent;
+	display: grid;
+	grid-gap: 1rem;
+	border-radius: 0.3rem;
+	grid-template-columns: repeat(3, 1fr);
+	padding: 0.9rem;
+	transition: all 0.1s linear;
 }
 
 .profile-border:hover,
 .raised_card {
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  border-radius: 0.3rem;
-  box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.2),
-    inset 0px -1px 0px rgba(255, 255, 255, 0.1),
-    inset 1px 0px 0px rgba(255, 255, 255, 0.05),
-    inset -1px 0px 0px rgba(255, 255, 255, 0.05), 0 4px 8px rgba(0, 0, 0, 0.3);
-  transition: all 0.1s linear;
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	border-radius: 0.3rem;
+	box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.2),
+		inset 0px -1px 0px rgba(255, 255, 255, 0.1),
+		inset 1px 0px 0px rgba(255, 255, 255, 0.05),
+		inset -1px 0px 0px rgba(255, 255, 255, 0.05), 0 4px 8px rgba(0, 0, 0, 0.3);
+	transition: all 0.1s linear;
 }
 
 .preview-image {
-  background-image: url(../../../assets/profile_img_1.webp);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-radius: 0.3rem;
-  min-height: 27vh;
-  box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.3);
-  border: 1px solid rgba(0, 0, 0, 0.9);
+	background-image: url(../../../assets/profile_img_1.webp);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 0.3rem;
+	min-height: 27vh;
+	box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.3);
+	border: 1px solid rgba(0, 0, 0, 0.9);
 }
 
 .preview-image:hover {
-  background-image: url(../../../assets/profile_img_2.webp);
+	background-image: url(../../../assets/profile_img_2.webp);
 }
 
 .intro-text {
-  grid-column: span 2;
+	grid-column: span 2;
 }
 
 .grid_intro-text {
-  display: grid;
-  align-content: center;
-  justify-items: center;
+	display: grid;
+	align-content: center;
+	justify-items: center;
 }
 
 h1,
 h2,
 h3,
 .card p {
-  font-weight: 400;
+	font-weight: 400;
 }
 
 .border-red {
-  padding: 1rem;
-  border: 1px solid transparent;
+	padding: 1rem;
+	border: 1px solid transparent;
 }
 
 .border-yel {
-  margin-top: 10px;
-  border: 1px solid yellow;
+	margin-top: 10px;
+	border: 1px solid yellow;
 }
 
 /* section mid - about me */
 .grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 1.2rem;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 1.2rem;
 }
 
 .about_me {
-  margin: 1rem auto;
-  padding: 1rem;
+	margin: 1rem auto;
+	padding: 1rem;
 }
 
 .about_me-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1.2rem;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 1.2rem;
 }
 
 .about_me-card {
-  background: #032b2c;
-  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.8);
-  border-radius: 0.27rem;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.27), transparent);
-  box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6);
-  display: inline;
-  padding: 0.45rem;
-  margin: 1rem;
+	background: #032b2c;
+	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.8);
+	border-radius: 0.27rem;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.27), transparent);
+	box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6);
+	display: inline;
+	padding: 0.45rem;
+	margin: 1rem;
 }
 
 .card {
-  padding: 0.9rem;
-  background: #032b2c;
-  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.8);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.27), transparent);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6);
-  border-radius: 0.2rem;
-  margin: 0 auto;
-  width: 100%;
-}
-
-.horizontal_line {
-  margin: 9rem 3rem 9rem 3rem;
-  border: 1px solid rgba(197, 67, 7, 0.8);
-}
-
-.hr_color {
-  margin: 0.9rem 0rem;
-  border: 1px solid rgba(255, 85, 6, 0.8);
+	padding: 0.9rem;
+	background: #032b2c;
+	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.8);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.27), transparent);
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6);
+	border-radius: 0.2rem;
+	margin: 0 auto;
+	width: 100%;
 }
 
 @media (max-width: 1024px) {
-  .about_me-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
+	.about_me-grid {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
 
-  .grid_intro-text h3 {
-    font-size: 14px;
-    font-weight: 300;
-  }
+	.grid_intro-text h3 {
+		font-size: 14px;
+		font-weight: 300;
+	}
 
-  .profile-border {
-    grid-template-columns: 1fr;
-  }
+	.profile-border {
+		grid-template-columns: 1fr;
+	}
 
-  .horizontal_line {
-    margin: 3rem 1rem 3rem 1rem;
-    border: 1px solid rgba(197, 67, 7, 0.8);
-  }
+	.horizontal_line {
+		margin: 3rem 1rem 3rem 1rem;
+		border: 1px solid rgba(197, 67, 7, 0.8);
+	}
 }
