@@ -1,12 +1,16 @@
 .flex {
-  display: flex;
-  justify-content: center;
-  padding: 0.9rem;
-  margin: 2.7rem;
+	display: flex;
+	justify-content: center;
+	padding: 0.9rem;
+	margin: 2.7rem;
 }
 
 @media (max-width: 1280px) {
-  .flex {
-    margin: 0.9rem 0rem;
-  }
+	.flex {
+		margin: 0.9rem 0rem;
+	}
+
+	.flex p {
+		font-size: 12px;
+	}
 }

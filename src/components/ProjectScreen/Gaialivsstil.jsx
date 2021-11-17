@@ -4,9 +4,11 @@ const Gaialivsstil = (props) => {
 	return (
 		<div>
 			<div className='container'>
-				<h1 className='bottom-border center'>My first React.js project</h1>
 				<div className='top-margin'>
 					<div className='raised-card-project'>
+						<h3 style={{ padding: '1rem' }} className='ss-text'>
+							Gaialivsstil: My first React.js project
+						</h3>
 						<div className='flexbox_project'>
 							<img
 								src={props.projectImage}

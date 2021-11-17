@@ -75,13 +75,30 @@
 	max-width: 100%;
 }
 
+.inline {
+	display: inline;
+}
+
 @media (max-width: 900px) {
 	.flexbox_project {
 		flex-wrap: wrap-reverse;
 	}
 
+	.ss-text {
+		font-size: 16px;
+	}
+
 	.project-img-shadow {
 		max-width: 78vw;
 		margin: auto;
+	}
+
+	.para-space {
+		margin: 3px;
+		padding: 3px;
+	}
+
+	.raised-card-project {
+		padding: 0.3rem;
 	}
 }

@@ -9,14 +9,14 @@ const PSComponent = (props) => {
 				<div className='raised-card-project'>
 					<div className='flexbox_project'>
 						<div className='para-space'>
-							<h1>{props.projectHeader}</h1>
+							<h1 className='ss-text'>{props.projectHeader}</h1>
 							<div>
 								<a href={props.projectLink} className='btn_project'>
 									{props.projectLinkDescription}
 								</a>
 							</div>
 							<div>
-								<h1>{props.projectDescriptionTitle}</h1>
+								<h1 className='ss-text'>{props.projectDescriptionTitle}</h1>
 								<p className='desc-font para-space'>
 									{props.projectDescriptionParagraph}
 								</p>
