@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Link } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 import './header.css';
 
@@ -11,9 +11,6 @@ const Header = () => {
 					<div className='center_text header_text_style'>
 						<h3>Welcome to my portfolio project</h3>
 					</div>
-					<Link to='/coming-soon' className='btn header_btn_bRadius'>
-						UtviklerToni
-					</Link>
 				</div>
 			</header>
 		</Router>

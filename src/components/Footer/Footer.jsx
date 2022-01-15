@@ -11,7 +11,7 @@ const Footer = () => {
 	return (
 		<div className='container'>
 			<div className='about_me-grid'>
-				<div>
+				<div className='raised_card'>
 					<h1>Comments !</h1>
 					<p>
 						Got thoughts to share or just wanna bully me online, May be you got
@@ -26,7 +26,7 @@ const Footer = () => {
 						miniBlog - coming soon
 					</button>
 				</div>
-				<div className=''>
+				<div className='raised_card'>
 					<h1>Contact me</h1>
 					<p>
 						In case if you would like to contact me or leave a suggestion or
@@ -41,7 +41,7 @@ const Footer = () => {
 					</button>
 				</div>
 
-				<div>
+				<div className='raised_card'>
 					<h1>Social medias</h1>
 					<p>I don't use any social media </p>
 					<button

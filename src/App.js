@@ -20,7 +20,7 @@ const App = () => {
 					<Route path='/' exact component={HomePage} />
 					<Route path='/prosjekt' exact component={ProjectScreen} />
 					<Route path='/about_me' component={AboutMe} />
-					<Route path='/coming-soon' component={ComingSoon} />
+					<Route path='/coming_soon' component={ComingSoon} />
 				</main>
 				<div className='container'>
 					<FooterBanner />

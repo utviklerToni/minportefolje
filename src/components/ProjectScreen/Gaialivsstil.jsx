@@ -1,14 +1,16 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+
+import './container_gaialivsstil.css';
 
 const Gaialivsstil = (props) => {
 	return (
-		<div>
-			<div className='container'>
+		<Fragment>
+			<div className='container_gaialivsstil'>
 				<div className='top-margin'>
+					<h3 style={{ padding: '1rem' }} className='ss-text'>
+						My first project: Gaialivsstil
+					</h3>
 					<div className='raised-card-project'>
-						<h3 style={{ padding: '1rem' }} className='ss-text'>
-							Gaialivsstil: My first React.js project
-						</h3>
 						<div className='flexbox_project'>
 							<img
 								src={props.projectImage}
@@ -19,7 +21,7 @@ const Gaialivsstil = (props) => {
 					</div>
 				</div>
 			</div>
-		</div>
+		</Fragment>
 	);
 };
 
