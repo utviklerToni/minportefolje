@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react';
 
 import PSComponent from './PSComponent';
-import signIn from '../../assets/signIn.png';
-import bbbsHomePage from '../../assets/bbbs-mainpage-scaled04.png';
+import signIn from '../../assets/signIn.webp';
+import bbbsHomePage from '../../assets/bbbs-mainpage-scaled04.webp';
 import homepagePic1 from '../../assets/homepage-fullhd.webp';
 import mobileGaialivsstil from '../../assets/mobileGaialivsstil.webp';
 import Gaialivsstil from './Gaialivsstil';
@@ -15,7 +15,7 @@ const ProjectScreen = () => {
 				projectImage={mobileGaialivsstil}
 				projectHeader={`Mobile view of Gaialivsstil`}
 				projectLink={`https://gaialivsstil.no/`}
-				projectLinkDescription={`Goto Gaialivsstil`}
+				projectLinkDescription={`Explore Gaialivsstil`}
 				projectDescriptionTitle={`About Gaialivsstil	`}
 				projectDescriptionParagraph={`This is my first project as a developer. A project for my Norwegian client.`}
 			/>
@@ -25,7 +25,7 @@ const ProjectScreen = () => {
 				projectImgAlt={`image`}
 				projectHeader={`A restaurant project for Gaialivsstil`}
 				projectLink={`https://bjornsbeersandbones.herokuapp.com`}
-				projectLinkDescription={`Show me the live demo`}
+				projectLinkDescription={`Live demo here`}
 				projectDescriptionTitle={`About this project`}
 				projectDescriptionParagraph={` A simple restaurant website using React.js & redux state management with Node.js at the backend. Its a project for my client to support local organic farmers and serve their local community. This restaurant is set to open in beautiful town of Kragerø. It is one of the ongoing project I've been working on. The goal is to make it scalable using micro-service so it can be scaled. Right now I have developed it as a monolithic web-app.`}
 			/>

@@ -11,7 +11,7 @@ const Header = () => {
 					<div className='center_text header_text_style'>
 						<h3>Welcome to my portfolio project</h3>
 					</div>
-					<Link to='/comingsoon' className='btn header_btn_bRadius'>
+					<Link to='/coming-soon' className='btn header_btn_bRadius'>
 						UtviklerToni
 					</Link>
 				</div>
