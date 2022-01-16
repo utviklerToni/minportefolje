@@ -28,12 +28,15 @@ const BodySection = () => {
 					<header className='intro-text'>
 						<div className='grid_intro-text'>
 							<h2>Who am I ? </h2>
-							<h3>
+							<h3 className='who-am-i'>
 								Hi, My name is utviklerToni and I am a full stack web developer,
 								I use JavaScript with MERN stack, I also work on Electron.js and
 								develop linux desktop application. Electron.js is a framework
 								which allows JavaScript developer to create cross platform
 								applications.
+								<br />
+								<br />
+								(Keep your cursor away from me.)
 							</h3>
 						</div>
 					</header>

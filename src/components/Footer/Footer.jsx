@@ -1,4 +1,5 @@
 import React from 'react';
+import Mail from '../../assets/icon-svg/Mail';
 
 import '../Section/Body/bodySection.css';
 import './footer.css';
@@ -11,42 +12,58 @@ const Footer = () => {
 	return (
 		<div className='container'>
 			<div className='about_me-grid'>
-				<div className='raised_card'>
+				<div className='raised_card footer-card-color'>
 					<h1>Comments !</h1>
-					<p>
+					<br />
+					<p className='font-roboto'>
 						Got thoughts to share or just wanna bully me online, May be you got
 						jokes to share, head to my mini blog app and leave comments. I
 						support free speech but I would request you keep the comments nice
 						and clean.
 					</p>
-
+					<br />
 					<button
 						className='btn'
-						style={{ borderRadius: '0.3rem', padding: '0.3rem' }}>
+						style={{
+							borderRadius: '0.3rem',
+							padding: '0.3rem',
+							fontWeight: '400',
+						}}>
 						miniBlog - coming soon
 					</button>
 				</div>
-				<div className='raised_card'>
+				<div className='raised_card footer-card-color'>
 					<h1>Contact me</h1>
-					<p>
+					<br />
+					<p className='font-roboto'>
 						In case if you would like to contact me or leave a suggestion or
 						report a bug , use the e-mail below
 					</p>
-
-					<button
+					<br />
+					{/* <button
 						className='btn'
-						style={{ borderRadius: '0.3rem', padding: '0.3rem' }}
-						onClick={showMail}>
-						h1de.toni@protonmail.com
-					</button>
+						style={{
+							borderRadius: '0.3rem',
+							padding: '0.3rem',
+							fontWeight: '400',
+						}}>
+						<Mail />
+					</button> */}
+					<Mail />
 				</div>
 
-				<div className='raised_card'>
+				<div className='raised_card footer-card-color'>
 					<h1>Social medias</h1>
-					<p>I don't use any social media </p>
+					<br />
+					<p className='font-roboto'>I don't use any social media </p>
+					<br />
 					<button
 						className='btn'
-						style={{ borderRadius: '0.3rem', padding: '0.3rem' }}>
+						style={{
+							borderRadius: '0.3rem',
+							padding: '0.3rem',
+							fontWeight: '400',
+						}}>
 						None
 					</button>
 				</div>

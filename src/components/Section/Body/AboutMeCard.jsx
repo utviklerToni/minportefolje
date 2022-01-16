@@ -20,7 +20,7 @@ const AboutMeCard = () => {
 			</div>
 
 			<div className='card'>
-				<h1>Me as a Being</h1>
+				<h1>Me as a Human Being</h1>
 				<div>
 					<hr className='hr_color' />
 					<p>
