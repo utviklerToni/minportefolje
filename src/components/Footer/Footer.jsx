@@ -40,7 +40,7 @@ const Footer = () => {
 						report a bug , use the e-mail below
 					</p>
 					<br />
-					{/* <button
+					<button
 						className='btn'
 						style={{
 							borderRadius: '0.3rem',
@@ -48,8 +48,7 @@ const Footer = () => {
 							fontWeight: '400',
 						}}>
 						<Mail />
-					</button> */}
-					<Mail />
+					</button>
 				</div>
 
 				<div className='raised_card footer-card-color'>
