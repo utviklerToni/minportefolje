@@ -5,9 +5,9 @@ import '../Section/Body/bodySection.css';
 import './footer.css';
 
 const Footer = () => {
-	const showMail = (event) => {
-		event.preventDefault();
-	};
+	// const showMail = (event) => {
+	// 	event.preventDefault();
+	// };
 
 	return (
 		<div className='container'>
