@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Mail from '../../assets/icon-svg/Mail';
 
 import '../Section/Body/bodySection.css';
@@ -22,15 +23,17 @@ const Footer = () => {
 						and clean.
 					</p>
 					<br />
-					<button
-						className='btn'
-						style={{
-							borderRadius: '0.3rem',
-							padding: '0.3rem',
-							fontWeight: '400',
-						}}>
-						miniBlog - coming soon
-					</button>
+					<Link to='/coming_soon'>
+						<button
+							className='btn'
+							style={{
+								borderRadius: '0.3rem',
+								padding: '0.3rem',
+								fontWeight: '400',
+							}}>
+							miniBlog - coming soon
+						</button>
+					</Link>
 				</div>
 				<div className='raised_card footer-card-color'>
 					<h1>Contact me</h1>

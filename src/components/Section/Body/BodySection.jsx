@@ -34,9 +34,6 @@ const BodySection = () => {
 								develop linux desktop application. Electron.js is a framework
 								which allows JavaScript developer to create cross platform
 								applications.
-								<br />
-								<br />
-								(Keep your cursor away from me.)
 							</h3>
 						</div>
 					</header>
@@ -48,7 +45,7 @@ const BodySection = () => {
 			<hr className='horizontal_line' />
 			<section className='about_me raised_card'>
 				<h1 className='about_me-card '>About Me</h1>
-				<div className='about_me-grid border-red '>
+				<div className='about_me-grid border-red'>
 					<AboutMeCard />
 				</div>
 				<Link to='/prosjekt'>

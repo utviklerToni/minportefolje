@@ -3,7 +3,7 @@ import React from 'react';
 const FooterBanner = () => {
 	return (
 		<div className='flex card' style={{ margin: '2.7rem 0rem' }}>
-			<p>utviklerToni | 2022 - open source AF</p>
+			<p>utviklerToni | 2021+</p>
 		</div>
 	);
 };
