@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react';
 
 import PSComponent from './PSComponent';
-import signIn from '../../assets/signIn.webp';
-import bbbsHomePage from '../../assets/bbbs-mainpage-scaled04.webp';
-import homepagePic1 from '../../assets/homepage-fullhd.webp';
-import mobileGaialivsstil from '../../assets/mobileGaialivsstil.webp';
+import signIn from '../../assets/images/signIn.webp';
+import bbbsHomePage from '../../assets/images/bbbs-mainpage-scaled04.webp';
+import homepagePic1 from '../../assets/images/homepage-fullhd.webp';
+import mobileGaialivsstil from '../../assets/images/mobileGaialivsstil.webp';
 import Gaialivsstil from './Gaialivsstil';
 
 const ProjectScreen = () => {

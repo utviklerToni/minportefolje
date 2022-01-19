@@ -1,6 +1,6 @@
 import React from 'react';
 
-import homePageImageCard from '../../../assets/homepage-2(__480px).webp';
+import homePageImageCard from '../../../assets/images/homepage-2(__480px).webp';
 
 const MainPageImageCard = () => {
 	return (

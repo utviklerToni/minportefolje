@@ -1,6 +1,6 @@
 import React from 'react';
 
-import gaialivsstilLogo from '../../assets/finished-logo.png';
+import gaialivsstilLogo from '../../assets/images/finished-logo.png';
 
 const GaialivsstilLogo = (props) => {
 	return (

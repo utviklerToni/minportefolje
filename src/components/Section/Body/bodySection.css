@@ -21,7 +21,7 @@
 }
 
 .preview-image {
-	background-image: url(../../../assets/profile_img_1.webp);
+	background-image: url(../../../assets/images/profile_img_1.webp);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -32,7 +32,7 @@
 }
 
 .preview-image:hover {
-	background-image: url(../../../assets/profile_img_2.webp);
+	background-image: url(../../../assets/images/profile_img_2.webp);
 }
 
 .intro-text {
