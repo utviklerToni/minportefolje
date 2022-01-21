@@ -1,0 +1,11 @@
+.aboutMe {
+	width: 45vw;
+	padding: 1rem;
+	margin: 3rem auto auto auto;
+}
+
+@media (max-width: 743px) {
+	.aboutMe {
+		width: 81vw;
+	}
+}
