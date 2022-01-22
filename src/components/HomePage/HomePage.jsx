@@ -1,15 +1,15 @@
-import React, { Fragment } from 'react';
-import Footer from '../Footer/Footer';
+import React from "react";
+import Footer from "../Footer/Footer";
 
-import BodySection from '../Section/Body/BodySection';
+import BodySection from "../Section/Body/BodySection";
 
 const HomePage = () => {
-	return (
-		<Fragment>
-			<BodySection />
-			<Footer />
-		</Fragment>
-	);
+  return (
+    <main>
+      <BodySection />
+      <Footer />
+    </main>
+  );
 };
 
 export default HomePage;
