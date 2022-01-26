@@ -41,8 +41,8 @@ const Footer = () => {
           <h1>Contact me</h1>
           <br />
           <p className='font-roboto'>
-            In case if you would like to contact me or leave a suggestion or
-            report a bug , use the e-mail below
+            In case if you would like to contact me or leave a suggestion.
+            Please use the e-mail below.
           </p>
           <br />
           <button

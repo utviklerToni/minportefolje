@@ -1,24 +1,16 @@
-import React, { Fragment } from "react";
+import React, { Fragment } from 'react';
 
-import PSComponent from "./PSComponent";
-import signIn from "../../assets/images/signIn.webp";
-import bbbsHomePage from "../../assets/images/bbbs-mainpage-scaled04.webp";
-import homepagePic1 from "../../assets/images/homepage-fullhd.webp";
-import mobileGaialivsstil from "../../assets/images/mobileGaialivsstil.webp";
-import Gaialivsstil from "./Gaialivsstil";
+import PSComponent from './PSComponent';
+import signIn from '../../assets/images/signIn.webp';
+import bbbsHomePage from '../../assets/images/bbbs-mainpage-scaled04.webp';
+import homepagePic1 from '../../assets/images/homepage-fullhd.webp';
+// import mobileGaialivsstil from '../../assets/images/mobileGaialivsstil.webp';
+import Gaialivsstil from './Gaialivsstil';
 
 const ProjectScreen = () => {
   return (
     <Fragment>
       <Gaialivsstil projectImage={homepagePic1} />
-      <PSComponent
-        projectImage={mobileGaialivsstil}
-        projectHeader={`Mobile view of Gaialivsstil`}
-        projectLink={`https://gaialivsstil.no/`}
-        projectLinkDescription={`Explore Gaialivsstil`}
-        projectDescriptionTitle={`About Gaialivsstil	`}
-        projectDescriptionParagraph={`This is my first project as a developer. A project for my Norwegian client.`}
-      />
 
       <PSComponent
         projectImage={bbbsHomePage}

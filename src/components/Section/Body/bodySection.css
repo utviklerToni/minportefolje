@@ -11,14 +11,22 @@
 
 .profile-border:hover,
 .raised_card {
-  background: #47515a;
+  background: #234853;
   border: 1px solid rgba(0, 0, 0, 0.226);
   border-radius: 0.3rem;
   box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.2),
     inset 0px -1px 0px rgba(255, 255, 255, 0.1),
     inset 1px 0px 0px rgba(255, 255, 255, 0.05),
     inset -1px 0px 0px rgba(255, 255, 255, 0.05), 0 4px 8px rgba(0, 0, 0, 0.3);
-  transition: all 0.1s linear;
+  transition: all 0.27s ease-in-out;
+}
+
+.raised_card:hover {
+  box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.2),
+    inset 0px -1px 0px rgba(255, 255, 255, 0.1),
+    inset 1px 0px 0px rgba(255, 255, 255, 0.05),
+    inset -1px 0px 0px rgba(255, 255, 255, 0.05), 0 14px 18px #0f3f4b;
+  transition: all 0.27s ease-in-out;
 }
 
 .preview-image {
@@ -30,10 +38,20 @@
   min-height: 27vh;
   box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.3);
   border: 1px solid rgba(0, 0, 0, 0.9);
+  box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.2),
+    inset 0px -1px 0px rgba(255, 255, 255, 0.1),
+    inset 1px 0px 0px rgba(255, 255, 255, 0.05),
+    inset -1px 0px 0px rgba(255, 255, 255, 0.05), 0px 3px 6px #0f3f4b;
+  transition: all 0.27s ease-in-out;
 }
 
 .preview-image:hover {
   background-image: url(../../../assets/images/profile_img_2.webp);
+  box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.2),
+    inset 0px -1px 0px rgba(255, 255, 255, 0.1),
+    inset 1px 0px 0px rgba(255, 255, 255, 0.05),
+    inset -1px 0px 0px rgba(255, 255, 255, 0.05), 0px 3px 6px #0f3f4b;
+  transition: all 0.27s ease-in-out;
 }
 
 .intro-text {
