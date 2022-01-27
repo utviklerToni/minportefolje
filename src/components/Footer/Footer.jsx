@@ -45,29 +45,31 @@ const Footer = () => {
             Please use the e-mail below.
           </p>
           <br />
-          <button
-            className='btn'
-            style={{
-              borderRadius: '0.3rem',
-              padding: '0.3rem',
-              fontWeight: '400',
-            }}
-          >
-            <Mail />
-          </button>
+          <div className='contact_tile_flex'>
+            <button
+              className='btn'
+              style={{
+                borderRadius: '0.3rem',
+                padding: '0.3rem',
+                fontWeight: '400',
+              }}
+            >
+              <GithubLogo />
+            </button>
+            <button
+              className='btn'
+              style={{
+                borderRadius: '0.3rem',
+                padding: '0.3rem',
+                fontWeight: '400',
+              }}
+            >
+              <Mail />
+            </button>
+          </div>
+
           {/* <br />
           <a href='https://github.com/utviklertoni'>My github profile</a> */}
-
-          <button
-            className='btn'
-            style={{
-              borderRadius: '0.3rem',
-              padding: '0.3rem',
-              fontWeight: '400',
-            }}
-          >
-            <GithubLogo />
-          </button>
         </div>
 
         <div className='raised_card footer-card-color'>

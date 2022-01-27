@@ -121,7 +121,11 @@ const Gaialivsstil = (props) => {
             </div>
           </div>
           <div>
-            <button className='btn'>Explore Gaialivsstil</button>
+            <button className='btn'>
+              <a href='https://www.gaialivsstil.no' target={`_blank`}>
+                Explore Gaialivsstil
+              </a>
+            </button>
           </div>
           <hr className='horizontal_line' />
         </div>
