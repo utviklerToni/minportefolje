@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/minportefolje/static/css/main.8430ae8b.css",
+    "main.js": "/minportefolje/static/js/main.c8dac44d.js",
+    "static/media/homepage-fullhd.webp": "/minportefolje/static/media/homepage-fullhd.e3b4f0f8b627bc7bf728.webp",
+    "static/media/finished-logo.png": "/minportefolje/static/media/finished-logo.df6c15de8691f0626155.png",
+    "static/media/bbbs-mainpage-scaled04.webp": "/minportefolje/static/media/bbbs-mainpage-scaled04.4ed8a9fbd829ca9fdd86.webp",
+    "static/media/loseless_mobile_view_480px.webp": "/minportefolje/static/media/loseless_mobile_view_480px.0956b65d8f7c36478fd8.webp",
+    "static/media/profile_img_2.webp": "/minportefolje/static/media/profile_img_2.c42e96eedec803a68061.webp",
+    "static/media/homepage-2(__480px).webp": "/minportefolje/static/media/homepage-2(__480px).818132cb6f340adc1f58.webp",
+    "static/media/signIn.webp": "/minportefolje/static/media/signIn.df3046d957d37167b667.webp",
+    "static/media/profile_img_1.webp": "/minportefolje/static/media/profile_img_1.e90882b6a3bc73b5ec90.webp",
+    "index.html": "/minportefolje/index.html",
+    "main.8430ae8b.css.map": "/minportefolje/static/css/main.8430ae8b.css.map",
+    "main.c8dac44d.js.map": "/minportefolje/static/js/main.c8dac44d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8430ae8b.css",
+    "static/js/main.c8dac44d.js"
+  ]
+}
