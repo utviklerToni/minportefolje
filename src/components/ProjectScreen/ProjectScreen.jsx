@@ -15,11 +15,11 @@ const ProjectScreen = () => {
       <PSComponent
         projectImage={bbbsHomePage}
         projectImgAlt={`image`}
-        projectHeader={`A restaurant project for Gaialivsstil`}
+        projectHeader={`A fictional e-com project.`}
         projectLink={`https://bjornsbeersandbones.herokuapp.com`}
         projectLinkDescription={`Live demo here`}
         projectDescriptionTitle={`About this project`}
-        projectDescriptionParagraph={` A simple restaurant website using React.js & redux state management with Node.js at the backend. Its a project for my client to support local organic farmers and serve their local community. This restaurant is set to open in beautiful town of Kragerø. It is one of the ongoing project I've been working on. The goal is to make it scalable using micro-service so it can be scaled. Right now I have developed it as a monolithic web-app.`}
+        projectDescriptionParagraph={` A simple e-commerce web app using React.js & redux state management with Node.js at the backend. Its a project to demonstrate react & redux library. It is one of the ongoing project I've been working on. The goal is to make it scalable using micro-service so it can be scaled. Right now I have developed it as a monolithic web-app.`}
       />
       <PSComponent
         projectImage={signIn}
