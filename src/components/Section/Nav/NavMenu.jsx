@@ -9,7 +9,7 @@ const NavMenu = () => {
             <div className='header-section center_text_flex d_flex'>
                <div>
                   <Link
-                     to='/minportefolje'
+                     to='/'
                      className='btn section_menu_btn_bRadius_hjem'
                   >
                      Home

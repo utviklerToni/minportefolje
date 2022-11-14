@@ -17,7 +17,7 @@ const App = () => {
          <NavMenu />
          <Routes>
             {/* <main> */}
-            <Route path='/minportefolje' exact element={<HomePage />} />
+            <Route path='/' exact element={<HomePage />} />
             <Route path='/prosjekt' exact element={<ProjectScreen />} />
             <Route path='/about_me' element={<AboutMe />} />
             <Route path='/coming_soon' element={<ComingSoon />} />
