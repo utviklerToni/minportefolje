@@ -3,7 +3,7 @@ import { Fragment } from 'react';
 const Mail = () => {
   return (
     <Fragment>
-      <a href='mailto:h1de.toni@protonmail.com'>
+      <a href='mailto:toni_JSdev@protonmail.com'>
         <div style={{ display: 'flex' }}>
           <svg
             fill='currentColor'
@@ -18,7 +18,7 @@ const Mail = () => {
           </svg>
 
           <p style={{ marginLeft: '9px', color: '#ff7b00' }}>
-            h1de.toni@protonmail.com
+            toni_JSdev@protonmail.com
           </p>
         </div>
       </a>
