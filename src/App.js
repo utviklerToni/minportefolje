@@ -9,6 +9,7 @@ import ProjectScreen from './components/ProjectScreen/ProjectScreen';
 import NavMenu from './components/Section/Nav/NavMenu';
 import FooterBanner from './components/Footer/FooterBanner';
 import ComingSoon from './components/ComingSoon/ComingSoon';
+import ProjectDetailV2 from './components/ProjectLists/Gaialivsstil-V2/ProjectDetail/ProjectDetailV2';
 
 const App = () => {
    return (
@@ -21,6 +22,11 @@ const App = () => {
             <Route path='/prosjekt' exact element={<ProjectScreen />} />
             <Route path='/about_me' element={<AboutMe />} />
             <Route path='/coming_soon' element={<ComingSoon />} />
+            <Route
+               path='/prosjekt/Gaialivsstil-v1.2/details'
+               element={<ProjectDetailV2 />}
+            />
+
             {/* </main> */}
          </Routes>
          <FooterBanner />

@@ -1,0 +1,32 @@
+.desc-para {
+   font-size: 30px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   align-content: center;
+   justify-content: center;
+   gap: 6rem;
+}
+
+.role h3 {
+   font-size: 14px;
+   text-transform: uppercase;
+   color: gray;
+   font-weight: bold;
+   padding: 18px 0px;
+}
+
+.role h2 {
+   font-size: 16px;
+   color: gray;
+   font-weight: 500;
+}
+
+.desc-para p {
+   color: rgb(117, 117, 117);
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.para-width {
+   max-width: 720px;
+}

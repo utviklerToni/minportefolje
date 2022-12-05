@@ -1,0 +1,15 @@
+.container_gaialivsstil {
+   max-width: 81vw;
+   margin: auto;
+}
+
+@media (max-width: 640px) {
+   .container_gaialivsstil {
+      max-width: 96vw;
+   }
+}
+
+.story_text {
+   padding: 9px;
+   margin: 9px;
+}

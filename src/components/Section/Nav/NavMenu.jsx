@@ -25,7 +25,7 @@ const NavMenu = () => {
                      to='/prosjekt'
                      className='btn section_menu_btn_bRadius_kontact'
                   >
-                     My Projects
+                     Work
                   </Link>
                </div>
             </div>
